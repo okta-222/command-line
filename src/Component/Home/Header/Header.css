@@ -1,0 +1,80 @@
+header {
+    background: url("../../../assets/intro-bg.jpg") center no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    padding: 25px 0px;
+
+}
+
+header .header-overlay {
+    background-color: rgba(141, 141, 141, 34%);
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 25px 0px;
+}
+
+header h2 {
+    color: rgb(219, 214, 214);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 25px 0px 15px 0px;
+    letter-spacing: 1px;
+    margin-bottom: 100px;
+}
+
+header p {
+    color: white;
+    font-size: 36px;
+    line-height: 30px;
+    margin: 25px 0px;
+    font-weight: bold;
+    margin-bottom: 60px;
+    letter-spacing: 3px;
+}
+
+header form {
+    margin: 25px 0;
+    display: flex;
+    justify-content: center;
+}
+
+header form button {
+    width: 180px;
+    border-radius: 3px;
+    outline: none;
+    font-size: 16px;
+    background-color: transparent;
+    color: white;
+    height: 48px;
+    border: 2px solid;
+}
+
+header form .left {
+    margin-right: 10px;
+    border-color: white;
+    transition: 0.3s;
+}
+
+header form .left:hover {
+    border-color: rgb(242, 84, 95);
+    background-color: rgb(242, 84, 95);
+}
+
+header form .right {
+    background-color: rgb(242, 84, 95);
+    border-color: rgb(242, 84, 95);
+    transition: 0.3s;
+}
+
+header form .right:hover {
+    background-color: transparent;
+    border-color: white;
+    color: rgb(255, 255, 255);
+
+}
