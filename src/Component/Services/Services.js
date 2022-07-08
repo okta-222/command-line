@@ -1,8 +1,17 @@
 import React from "react";
 import "./Services.css";
 import online from "../../assets/over.jpg"
+import Data from "../../Data";
+import Servitem from "./Servitem";
 
 const Services = () => {
+    const item = Data.serv.map((itembox) => {
+        return (
+            <div className="col-md-4">
+                <Servitem title={itembox.title} text={itembox.text} icons={itembox.icons} />
+            </div>
+        )
+    })
     return (
         <section className="service">
             <div className="container">
@@ -19,6 +28,10 @@ const Services = () => {
                         <img src={online} title="hi" />
                     </div>
 
+                </div>
+{/* ========================================>> */}
+                <div className="row secound-part">
+                    {item}
                 </div>
             </div>
         </section>

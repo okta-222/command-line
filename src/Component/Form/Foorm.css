@@ -1,0 +1,60 @@
+.form {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: rgb(33,32,27);
+    color: white;
+}
+
+.form .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form h2, h3, p{
+text-align: left;
+font-weight: bold;
+}
+
+.form h3 {
+    font-size: 24px;
+    /* font-weight: normal; */
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.form .span {
+    color:rgb(242,84,95);
+}
+.form p {
+    color: rgb(224, 224, 224);
+    font-weight: normal;
+}
+
+.form Form input {
+    display: block;
+    width: 400px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    padding: 10px 10px;
+    outline:none;
+    background-color: transparent;
+    border:2px solid #fff;
+
+}
+.form Form button {
+    margin-left: 310px;
+    width: 150px;
+    padding: 11px 20px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: rgb(242,84,95);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1px;
+}

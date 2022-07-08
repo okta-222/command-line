@@ -53,6 +53,7 @@ header form button {
     color: white;
     height: 48px;
     border: 2px solid;
+    font-weight: bold;
 }
 
 header form .left {
@@ -62,8 +63,9 @@ header form .left {
 }
 
 header form .left:hover {
-    border-color: rgb(242, 84, 95);
-    background-color: rgb(242, 84, 95);
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    color: black;
 }
 
 header form .right {
