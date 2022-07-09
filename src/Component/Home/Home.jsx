@@ -5,6 +5,7 @@ import Services from "../Services/Services";
 import Video from "../Videoo/Video";
 import Sliderr from "../Slider/Slider"
 import Register from "../Form/Foorm";
+import Ven from "../Venn/Venue";
 import "./Home.css"
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
             <Video />
             <Sliderr />
             <Register />
+            <Ven />
         </Fragment>
 
     )

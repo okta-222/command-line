@@ -50,9 +50,6 @@ const Sliderr = () => {
                     </div>
                 </Slider>
 
-
-
-
             </div>
         </section>
 
