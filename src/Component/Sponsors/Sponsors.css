@@ -1,0 +1,43 @@
+.Sponsor {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 25px 0px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.Sponsor h2 {
+    color: rgb(0, 0, 0);
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.Sponsor .span {
+    color: rgb(242, 84, 95);
+}
+
+.Sponsor p {
+    color: rgb(99, 95, 95);
+    font-size: 15px;
+    text-align: center;
+}
+
+.Sponsor ul {
+    margin-top: 100px;
+    display: flex;
+}
+
+.Sponsor li {
+    margin-right: 20px;
+    color: rgb(242, 84, 95);
+    list-style: none;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 80px;
+
+}

@@ -9,7 +9,7 @@ const Ven = () => {
                     <div className="col-lg-12 col-md-12">
                         <h2>Venue</h2>
                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed<br /> diam
-                            nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.</p>
+                            nonummy nibh euismod tincidunt ut laoreet. Dolore <br />magna aliquam erat volutpat.</p>
                         <h5>
                             New Event <br />
                             120 Market Street, Suite 110<br />

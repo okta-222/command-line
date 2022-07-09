@@ -6,6 +6,8 @@ import Video from "../Videoo/Video";
 import Sliderr from "../Slider/Slider"
 import Register from "../Form/Foorm";
 import Ven from "../Venn/Venue";
+import Spons from "../Sponsors/Sponsors"
+import Cont from "../Contact/Contact";
 import "./Home.css"
 
 const Home = () => {
@@ -17,6 +19,8 @@ const Home = () => {
             <Sliderr />
             <Register />
             <Ven />
+            <Spons />
+            <Cont />
         </Fragment>
 
     )

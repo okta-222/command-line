@@ -4,8 +4,6 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import card from "../../assets/planet.jpg"
 
-
-
 const Sliderr = () => {
     const settings = {
         dots: true,
@@ -23,9 +21,6 @@ const Sliderr = () => {
                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
                     </div>
                 </div>
-
-
-
                 <Slider {...settings}>
                     <div>
                         <div className="row">
