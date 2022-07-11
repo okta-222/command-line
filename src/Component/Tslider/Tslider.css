@@ -1,0 +1,17 @@
+.row {
+    padding-top: 100px;
+}
+
+.row .span {
+    color: rgb(255, 62, 37);
+}
+
+.row h2 {
+    font-weight: bold;
+}
+
+.row p {
+    text-align: center;
+    color: #777;
+    font-size: 15px;
+}

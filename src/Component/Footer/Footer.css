@@ -1,0 +1,18 @@
+.service {
+    background-color: rgb(197, 197, 197);
+}
+
+.fab,
+.fa-brands {
+    font-family: 'Font Awesome 6 Brands';
+    font-weight: bold;
+    margin-right: 39px;
+    font-size: 16px;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+.fab,
+.fa-brands:hover {
+    color: rgb(249, 105, 95);
+}

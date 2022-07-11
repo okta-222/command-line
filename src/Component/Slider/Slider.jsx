@@ -1,54 +1,61 @@
-import React from "react";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
+import React from 'react'
 import card from "../../assets/planet.jpg"
+import box from "../../assets/love.jpg"
+import boxx from "../../assets/img1.jpg"
+import boxxx from "../../assets/img2.jpg"
+import boxxxx from "../../assets/img3.jpg"
+import boxxxxx from "../../assets/img4.jpg"
+import { Swiper, SwiperSlide } from 'swiper/react';
+import '../../../node_modules/swiper/swiper.min.css';
+import "./Slider.css"
 
-const Sliderr = () => {
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1
-    }
+const data = [
+    {
+        id: 1,
+        username: "jenny green",
+        testimonial: "ui disigner"
+    },
+    {
+        id: 2,
+        username: "jenny green",
+        testimonial: "ui disigner"
+    },
+    {
+        id: 3,
+        username: "jenny green",
+        testimonial: "ui disigner"
+    },
+    {
+        id: 4,
+        username: "jenny green",
+        testimonial: "ui disigner"
+    },
+    {
+        id: 5,
+        username: "jenny green",
+        testimonial: "ui disigner"
+    },
+]
+export default function Slider() {
     return (
-        <section className="Slider">
-            <div className="container">
-                <div className="row">
-                    <div className="col-lg-12 col-md-12">
-                        <h2>Creative Speakers</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
-                    </div>
-                </div>
-                <Slider {...settings}>
-                    <div>
-                        <div className="row">
-                            <img src={card} title="hi" />
+        <section>
+        <div className="container app">
+            <Swiper
+                spaceBetween={50} slidesPerView={4} className="mySwipe">
+                {data.map(user => (
+                    <SwiperSlide key={user.id} className="slide">
+                        <div className="slide-content">
+                            <div className="user-image">
+                                <img src={box} className="user-photo" />
+                            </div>
+                            <h5>{user.username}</h5>
+                            <p className="user-testimonial">{user.testimonial}</p>
                         </div>
-                    </div>
-                    <div>
-                        <div className="row">
-                        </div>
-                    </div>
-                    <div>
-                        <div className="row">
-                        </div>
-                    </div>
-                    <div>
-                        <div className="row">
-                        </div>
-                    </div>
-                    <div>
-                        <div className="row">
-                        </div>
-                    </div>
-                </Slider>
-
-            </div>
+                    </SwiperSlide>
+                ))}
+            </Swiper>
+        </div>
         </section>
 
     )
 }
-
-export default Slider;

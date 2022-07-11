@@ -8,7 +8,9 @@ import Register from "../Form/Foorm";
 import Ven from "../Venn/Venue";
 import Spons from "../Sponsors/Sponsors"
 import Cont from "../Contact/Contact";
+import Footer from "../Footer/Footer";
 import "./Home.css"
+import Tslider from "../Tslider/Tslider";
 
 const Home = () => {
     return (
@@ -16,11 +18,13 @@ const Home = () => {
             <Header />
             <Services />
             <Video />
+            <Tslider />
             <Sliderr />
             <Register />
             <Ven />
             <Spons />
             <Cont />
+            <Footer />
         </Fragment>
 
     )
